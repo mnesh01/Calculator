@@ -5,16 +5,17 @@ body{
     align-items: center;
     height: 100vh;
     background-color: hsl(0, 1%, 95%);
+    font-family: Arial, Helvetica, sans-serif;
 }
 
-
-
 #calculator{
-    font-family: Arial, Helvetica, sans-serif;
     background-color: hsl(0, 1%, 19%);
     border-radius: 15px;
     max-width: 500px;
+    width: 100px;
     overflow: hidden;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+   
 }
 #display{
     width: 100%;
@@ -24,6 +25,7 @@ body{
     border: none;
     background-color: hsl(0, 1%, 20%);
     color: white;
+    overflow: hidden;
 }
 
 #keys{
@@ -32,7 +34,6 @@ body{
     gap: 10px;
     padding: 25px;
 }
-
 
 button{
     width: 100px;
@@ -51,6 +52,7 @@ button:hover{
 }
 button:active{
     background-color: hsl(0, 1%, 60%);
+    transform: scale(0.95);
 }
 .operator-btn{
     background-color:  hsl(35, 100%, 45%);
